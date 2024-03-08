@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80b9adf-689f-4230-baeb-757b90dbe9de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/static/blog/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/templates/blog/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/templates/blog/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a80b9adf-689f-4230-baeb-757b90dbe9de" name="Changes" comment="Bootstrap and migrations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/DjangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/DjangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/DjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/DjangoProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +91,15 @@
       <option name="presentableId" value="Default" />
       <updated>1709840012977</updated>
     </task>
+    <task id="LOCAL-00001" summary="Bootstrap and migrations">
+      <option name="closed" value="true" />
+      <created>1709925007506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709925007506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Bootstrap and migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap and migrations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
