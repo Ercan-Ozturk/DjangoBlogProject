@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80b9adf-689f-4230-baeb-757b90dbe9de" name="Changes" comment="User registration">
-      <change afterPath="$PROJECT_DIR$/DjangoProject/users/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/users/templates/users/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/users/templates/users/profile.html" afterDir="false" />
+    <list default="true" id="a80b9adf-689f-4230-baeb-757b90dbe9de" name="Changes" comment="Login, logout and profile pages">
+      <change afterPath="$PROJECT_DIR$/DjangoProject/users/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/DjangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/DjangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/DjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/DjangoProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/blog/templates/blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/users/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoProject/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoProject/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,11 +50,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "C:/Users/ercan/PycharmProjects/DjangoProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ercan\PycharmProjects\DjangoProject\DjangoProject\media\profile_pics" />
       <recent name="C:\Users\ercan\PycharmProjects\DjangoProject\DjangoProject" />
       <recent name="C:\Users\ercan\PycharmProjects\DjangoProject\DjangoProject\blog" />
     </key>
@@ -137,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710165773581</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Login, logout and profile pages">
+      <option name="closed" value="true" />
+      <created>1710180591833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710180591833</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +161,8 @@
     <MESSAGE value="Admin page" />
     <MESSAGE value="Workspace.xml update" />
     <MESSAGE value="User registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="User registration" />
+    <MESSAGE value="Login, logout and profile pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login, logout and profile pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
